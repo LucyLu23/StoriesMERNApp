@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import { Provider } from 'react-redux';
 
 // import { configurestore } from '@reduxjs/toolkit';??
@@ -8,9 +8,10 @@ import thunk from 'redux-thunk';
 import reducers from './reducers';
 
 import App from './App.js';
+import './index.css';
 
 
-/* const store = createStore(reducers, compose(applyMiddleware(thunk)));
+const store = createStore(reducers, compose(applyMiddleware(thunk)));
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,14 +20,6 @@ root.render(
     <App />
     </Provider>,
   </React.StrictMode>
-); */
+);
 
 
-const store = createStore(reducers, compose(applyMiddleware(thunk)));
-
-ReactDOM.render(
-    <Provider store={store} >
-        <App />
-    </Provider>,
-    document.getElementById('root')
-    );

@@ -14,15 +14,6 @@ My plan for this project: keeping working on it, firstly solve the iusse to crea
 
   
 
-
-
-
-
-
-
-
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

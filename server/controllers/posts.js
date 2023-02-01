@@ -29,8 +29,8 @@ export const getPosts = async (req, res)=>{
  */
 
 export const createPost = async (req, res)=>{
-    const { developer, project,date,tags, selectedFile} = req.body; //{developer, project,date,tags, selectedFile }
-    const newPost = new PostProject({ developer, project,date,tags, selectedFile}); //{developer, project, date, tags, selectedFile}
+    const { project,developer,  date, tags, selectedFile} = req.body; //{developer, project,date,tags, selectedFile }
+    const newPost = new PostProject({ developer, project, date, tags, selectedFile}); //{developer, project, date, tags, selectedFile}
 
     try {
         await newPost.save();
@@ -45,9 +45,9 @@ export const createPost = async (req, res)=>{
 
 export const updatePost = async (req, res) =>{
     const {id} =req.params;
-    const { developer, project,date,tags, selectedFile} = req.body;
+    const { developer, project,date,tags, selectedFile} = req.body; // likeCount, dislikeCount 
     if (!mongoose.Types.ObjectId.isValid(id)) return res.status(404).send('no post with that ID')
-    const updatedPost = {  developer, project,date,tags, selectedFile, _id: id };
+    const updatedPost = {  developer, project,date,tags, selectedFile,  _id: id };
   
     await PostProject.findByIdAndUpdate(id, updatePost, {new:true});
     res.json(updatedPost);

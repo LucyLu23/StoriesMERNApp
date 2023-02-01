@@ -1,3 +1,17 @@
+Introduction: 1. I am interested this finalMERNApp because I want to record my projects even they are not perfect; in doing so, I can keep records of my software career development. While coding, I review what I learn and learn some new skills, super meaningful. 
+2. Some errors that I correct: 2.1 'useFindAndModify' is not valid option to server index.js. (//mongoose.set('useFindAndUpdate', false); )
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

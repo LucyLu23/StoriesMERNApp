@@ -8,15 +8,15 @@ import moment from 'moment';
 import userStyle from './style';
 import { useDispatch } from 'react-redux';
 import { deletePost, likePost, dislikePost} from '../../../actions/posts';
-//import projectImg1 from '../../../images/SpaceShipGame.PNG';
+//import projectImg1 from '../../../images/Capture.PNG';
 //import post4style from './style.js';
 const Post = ({post, setCurrentId}) => {
   const classes = userStyle();
   const dispatch = useDispatch();    
   return (
-    <Card className={classes.card}>
-      <CardMedia className={classes.media} image={post.selectedFile } title={post.project} component='div' /> 
-      <div className={classes.overlay}>
+    <Card className={classes.card}   >
+      <CardMedia className={classes.media} image={post.selectedFile } title={post.title} component='div' /> 
+      <div className={classes.overlay}>  
           <Typography variant="h6">{post.developer}</Typography>
           <Typography variant="body2">{moment(post.createdAt).fromNow()}</Typography>
       </div>

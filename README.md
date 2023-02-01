@@ -8,7 +8,7 @@ Getting Started : see my Trello board.<img src="trello.PNG" alt="Trello" width="
 
 Unsolved Problems: I have some trouble to create a module at the frontend brower page; sometimes I suceed in creating it, sometimes not. I need to figure out it.
 
-Future features: I want to modify the App by applying CSS and creating more functions, if you click the project which will lead you to the github code, a button you can comment the projects,.
+Future features: I want to modify the App by applying CSS and creating more functions, if you click the project which will lead you to the github code, a button you can comment the projects.
 
 My plan for this project: keeping working on it, firstly solve the iusse to create a module, then add more functions. Not only this project, I will also keep working on other projects. 
 

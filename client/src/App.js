@@ -15,7 +15,7 @@ const App = () =>{
     const dispatch = useDispatch();
     useEffect(()=>{
         dispatch(getPosts());
-    }, [currentId, dispatch]);
+    }, [currentId, dispatch]);//[currentId, dispatch] or [ dispatch]?
     return (
         <Container maxidth="lg">
             <AppBar className={classes1.appBar} position="static" color="inherit">
@@ -25,7 +25,7 @@ const App = () =>{
             <Grow in>
                 <Container>
                     <Grid container justify-content="space-between" alignItems="stretch" spacing={3}>
-                        <Grid item xs={12} sm={6}>
+                        <Grid item xs={12} sm={4}>
                         {/* <Grid item xs={13} sm={6}> */}
                         <Form currentId={currentId} setCurrentId={setCurrentId} />
                         </Grid>

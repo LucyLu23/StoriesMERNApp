@@ -14,7 +14,7 @@ const Form = ({currentId,setCurrentId}) =>{
   useEffect(()=> {
     if(post) setPostData(post);
   }, [post]);
-  const handleSubmit =async (e)=>{ //there is async here or not?
+  const handleSubmit = (e)=>{ //there is async here or not?
     e.preventDefault();    
     if(currentId) {
       dispatch(updatePost( currentId, postData));

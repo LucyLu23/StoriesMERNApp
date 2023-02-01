@@ -15,7 +15,7 @@ const Post = ({post, setCurrentId}) => {
   const dispatch = useDispatch();    
   return (
     <Card className={classes.card}>
-      <CardMedia className={classes.media} image={post.selectedFile } title={post.project} /> {/* this place to change according to models */}
+      <CardMedia className={classes.media} image={post.selectedFile } title={post.project} component='div' /> 
       <div className={classes.overlay}>
           <Typography variant="h6">{post.developer}</Typography>
           <Typography variant="body2">{moment(post.createdAt).fromNow()}</Typography>
@@ -25,11 +25,11 @@ const Post = ({post, setCurrentId}) => {
               style={{color: 'blue'}} 
               size="small"               
               onClick={()=>setCurrentId(post._id)}> 
-              <MoreVertIcon fontSize="default" />
+              <MoreVertIcon fontSize="small" />
           </Button>
       </div>
       <div className={classes.details}>
-          <Typography variant="body2" color="textSecondary">{post.tag}</Typography>         
+          <Typography variant="body2" color="textSecondary">{post.tags}</Typography>         
       </div>
       <Typography className={classes.title} variant="h5" gutterBottom component='h2'>{post.project}</Typography>   
       <CardContent>

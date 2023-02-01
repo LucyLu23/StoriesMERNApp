@@ -14,7 +14,7 @@ export const getPosts = async (req, res)=>{
     }
 }
 
-export const getPost = async (req, res)=>{
+/* export const getPost = async (req, res)=>{
     const {id} =req.params;
 
     try {
@@ -26,7 +26,7 @@ export const getPost = async (req, res)=>{
         res.status(404).json({message: error.message})
     }
 }
-
+ */
 
 export const createPost = async (req, res)=>{
     const { developer, project,date,tags, selectedFile} = req.body; //{developer, project,date,tags, selectedFile }

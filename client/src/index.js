@@ -9,17 +9,21 @@ import reducers from './reducers';
 
 import App from './App.js';
 import './index.css';
+//import { createMuiTheme } from '@material-ui/core'
 
 
 const store = createStore(reducers, compose(applyMiddleware(thunk)));
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+ <React.Fragment> 
     <Provider store={store}>
     <App />
-    </Provider>,
-  </React.StrictMode>
+    
+    </Provider>
+  
+   </React.Fragment> 
+  
 );
 
 

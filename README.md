@@ -1,16 +1,36 @@
-Introduction: 1. I am interested this finalMERNApp because I want to record my projects even they are not perfect; in doing so, I can keep records of my software career development. While coding, I review what I learn and learn some new skills, super meaningful. 
-2. Some errors that I correct: 2.1 'useFindAndModify' is not valid option to server index.js. (//mongoose.set('useFindAndUpdate', false); )
-3. Some error of my code: <img src="Errors.PNG" alt="ErrorOfCode" width="60px" height="60" /> , <img src="MERNApp.PNG" alt="MERNApp" width="60px" height="60" />
+<h1>Introduction: </h1>
+<h3> Images: </h3><img src="MERNApp.PNG" alt="MERNApp" width="90px" height="80" />
 
-Technologies Used: axios, express, react, momnet, react, react-dom, react-file-based64, react-redux, react-scriptes, redux, redux-thunk, cors, body-parser, mongoose.
+1. I am interested this finalMERNApp because I want to record my projects even they are not perfect; in doing so, I can keep records of my software career development. While coding, I review what I learn and learn some new skills, super meaningful. 
+2. Some errors that I correct: 2.1 'useFindAndModify' is not valid option to server index.js nowadays. (//mongoose.set('useFindAndUpdate', false); ); 2.2
+3. Some error of my code: <img src="Errors.PNG" alt="ErrorOfCode" width="60px" height="60" /> , 
 
-Getting Started : see my Trello board.<img src="trello.PNG" alt="Trello" width="60px" height="60" />
+<h1> Technologies/API/libraries</h1>
+Technologies Used:
+<h5> axios: </h5>Promise based HTTP client for the browser and node.js; connect frontend and backend by URL of backend
+ <h5> express:</h5> create backend's server, comparing with http, express is fast and convenient
+ <h5> react: </h5> the JavaScript library for building user interfaces, client side , frontend, quickly to update the state/data
+ <h5> react-dom:</h5>compared to import modules(react.js), react-dom provide DOM-specific methods by applying CommadJS. 
+ <h5> momnet:</h5>recording the time of your data/modules are created
+ <h5> react-file-based64: </h5>
+ <h5>react-redux: </h5>redux is one way for function or stateless data (not class/stateful data) to update redux allows React components to read data from a Redux Store, and dispatch Actions to the Store to update data. Redux helps apps to scale by providing a sensible way to manage state through a unidirectional data flow model. React Redux is conceptually simple.
+ <h5>cors: </h5>Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources.
+ <h5>body-parser: </h5>body parsing is important middleware; the user can get the data by POST, PATCH, PUT,to CRUD data
+ <h5>mongoose: </h5> set up model/data 
+ <h5>hook</h5>: allow you to get the exact part of API/libraries to write your project, not change the stateful logic hierarchy.
 
-Unsolved Problems: I have some trouble to create a module at the frontend brower page; sometimes I suceed in creating it, sometimes not. I need to figure out it.
 
-Future features: I want to modify the App by applying CSS and creating more functions, if you click the project which will lead you to the github code, a button you can comment the projects.
 
-My plan for this project: keeping working on it, firstly solve the iusse to create a module, then add more functions. Not only this project, I will also keep working on other projects. 
+<h1>Getting Started </h1>: see my Trello board.<img src="trello.PNG" alt="Trello" width="60px" height="60" />
+
+<h1>Unsolved Problems:</h1> I have some trouble to create a module at the frontend brower page; sometimes I suceed in creating it, sometimes not. I need to figure out it.
+
+<h1>Future features:</h1> 
+1. I want to modify the App by applying CSS to make the app more pretty;
+2. To creating more functions, for example: "Nav function" if you click the project which will lead you to the github code,
+"comment area" a button you can comment the projects.
+
+<h1>My plan for this project<h1>: keeping working on it, firstly solve the iusse to create a module stably, maybe it is the laptop issue or internet problem. Secondly,  add more functions to the projects. Not only this project, I will also keep working on other projects. 
 
   
 

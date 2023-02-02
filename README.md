@@ -33,7 +33,7 @@ the biggest takeaway: I can succeed in create a module at my App Project browser
 
 <h1>My plan for this project:<h1>
  1. Keeping working on it, firstly solve the iusse to create a module stably, maybe it is the laptop issue or internet problem, not sure. 
- 2. Secondly,  add more functions to the projects. Not only this project, I will also keep working on other projects. 
+ 2. Secondly, adding the login page add more functions to the projects. Not only this project, I will also keep working on other projects. 
 
   
  

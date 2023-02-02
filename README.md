@@ -31,7 +31,8 @@ the biggest takeaway: I can succeed in create a module at my App Project browser
 2. To creating more functions, for example: "Nav function" if you click the project which will lead you to the github code,
 "comment area" a button you can comment the projects.
 
-<h1>My plan for this project<h1>: keeping working on it, firstly solve the iusse to create a module stably, maybe it is the laptop issue or internet problem. Secondly,  add more functions to the projects. Not only this project, I will also keep working on other projects. 
+<h1>My plan for this project:<h1>
+ keeping working on it, firstly solve the iusse to create a module stably, maybe it is the laptop issue or internet problem. Secondly,  add more functions to the projects. Not only this project, I will also keep working on other projects. 
 
   
 

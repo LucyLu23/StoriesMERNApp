@@ -34,7 +34,7 @@ export const createPost = async (req, res)=>{
 
     try {
         await newPost.save();
-        res.status(201).json(newPost);
+        res.status(200).json(newPost);
         
     } catch (error) {
         res.status(407).json({message:error.message})
@@ -43,6 +43,19 @@ export const createPost = async (req, res)=>{
 
 }
 
+/* export const createPost = async (req, res) => {
+    const post = req.body;
+    const newPost = new PostProject(post);
+    try {
+        await newPost.save();
+        // https://www.restapitutorial.com/httpstatuscodes.html
+        res.status (201).json(newPost);
+        
+    } catch (error) {
+        res.status(409).json({message: error.message})       
+    } 
+} 
+ */
 export const updatePost = async (req, res) =>{
     const {id} =req.params;
     const { developer, project,date,tags, selectedFile} = req.body; // likeCount, dislikeCount 

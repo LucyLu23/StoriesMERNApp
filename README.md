@@ -23,7 +23,8 @@ Technologies Used:
 
 <h1>Getting Started </h1>: see my Trello board.<img src="trello.PNG" alt="Trello" width="60px" height="60" />
 
-<h1>Unsolved Problems:</h1> I have some trouble to create a module at the frontend brower page; sometimes I suceed in creating it, sometimes not. I need to figure out it.
+<h1>Unsolved Problems:</h1> The biggest challenges: I have some trouble to create a module at the frontend brower page; sometimes I suceed in creating it, sometimes not. I need to figure out it; the new vision of vscode or node or express create some conflicts or unnecessaries, like "<ThumbDownAltIcon fontSize='small' />" the fontSize can not be default, but maybe years ago, the ThumbDownAltIcon props fontSize can be default.
+the biggest takeaway: I can succeed in create a module at my App Project browser that I spent almost two days to figure out.
 
 <h1>Future features:</h1> 
 1. I want to modify the App by applying CSS to make the app more pretty;

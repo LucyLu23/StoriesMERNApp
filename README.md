@@ -2,7 +2,7 @@
 <h3> Images: </h3><img src="MERNApp.PNG" alt="MERNApp" width="90px" height="80" />
 
 1. I am interested this finalMERNApp because I want to record my projects even they are not perfect; in doing so, I can keep records of my software career development. While coding, I review what I learn and learn some new skills, super meaningful. 
-2. Some errors that I correct: 2.1 'useFindAndModify' is not valid option to server index.js nowadays. (//mongoose.set('useFindAndUpdate', false); ); 2.2
+2. Some errors that I correct: 2.1 'useFindAndModify' is not valid option to server index.js nowadays. (//mongoose.set('useFindAndUpdate', false); ); 
 3. Some error of my code: <img src="Errors.PNG" alt="ErrorOfCode" width="60px" height="60" /> , 
 
 <h1> Technologies/API/libraries</h1>
@@ -32,9 +32,12 @@ the biggest takeaway: I can succeed in create a module at my App Project browser
 "comment area" a button you can comment the projects.
 
 <h1>My plan for this project:<h1>
- keeping working on it, firstly solve the iusse to create a module stably, maybe it is the laptop issue or internet problem. Secondly,  add more functions to the projects. Not only this project, I will also keep working on other projects. 
+ 1. Keeping working on it, firstly solve the iusse to create a module stably, maybe it is the laptop issue or internet problem, not sure. 
+ 2. Secondly,  add more functions to the projects. Not only this project, I will also keep working on other projects. 
 
   
+ 
+ More Information:  
 
 # Getting Started with Create React App
 
